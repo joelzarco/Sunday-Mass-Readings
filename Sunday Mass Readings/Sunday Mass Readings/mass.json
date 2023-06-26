@@ -1,0 +1,30 @@
+[
+    {
+        "date": "May 7, 2023",
+        "title": "Fifth Sunday of Easter",
+        "firstReadingLabel": "Acts 6:1-7",
+        "firstReadingText": "As the number of disciples continued to grow\nthe Hellenists complained against the Hebrews\nbecause their widows\nwere being neglected in the daily distribution.\nSo the Twelve called together the community of the disciples and said,\n\"It is not right for us to neglect the word of God to serve at table.\nBrothers, select from among you seven reputable men,\nfilled with the Spirit and wisdom,\nwhom we shall appoint to this task,\nwhereas we shall devote ourselves to prayer\nand to the ministry of the word\" \nThe proposal was acceptable to the whole community,\nso they chose Stephen, a man filled with faith and the Holy Spirit,\nalso Philip, Prochorus, Nicanor, Timon, Parmenas,\nand Nicholas of Antioch, a convert to Judaism.\nThey presented these men to the apostles\nwho prayed and laid hands on them.\nThe word of God continued to spread,\nand the number of the disciples in Jerusalem increased greatly;\neven a large group of priests were becoming obedient to the faith.",
+        "ResponsorialPsalmLabel": "Ps 33:1-2, 4-5, 18-19",
+        "ResponsorialPsalmText": "R. (22) Lord, let your mercy be on us, as we place our trust in you.",
+        "secondReadingLabel" : "1 Pt 2:4-9",
+        "secondReadingText" : "Beloved: Come to him, a living stone, rejected by human beings...",
+        "AlleluiaLabel": "Jn 14:6",
+        "AlleluiaText": "I am the way, the truth and the life, says the Lord; \nno one comes to the Father, except through me.",
+        "GospelLabel" : "Jn 14:1-12",
+        "GospelText" : "Jesus said to his disciples: \nDo not let your hearts be troubled.\nYou have faith in God; have faith also in me.\nIn my Father's house there are many dwelling places.\nIf there were not,\nwould I have told you that I am going to prepare a place for you?..."
+    },
+    {
+        "date": "May 15, 2023",
+        "title": "Sixth Sunday of Easter",
+        "firstReadingLabel": "Acts 8:5-8, 14-17",
+        "firstReadingText": "Philip went down to the city of Samaria",
+        "ResponsorialPsalmLabel": "Ps 66:1-3, 4-5, 6-7, 16, 20",
+        "ResponsorialPsalmText": "Let all the earth cry out to God with joy.",
+        "secondReadingLabel" : "1 Pt 3:15-18",
+        "secondReadingText" : "Beloved: Sanctify Christ as Lord in your hearts.",
+        "AlleluiaLabel": "Jn 14:23",
+        "AlleluiaText": "Alleluia, alleluia",
+        "GospelLabel" : "Jn 14:15-21",
+        "GospelText" : "Jesus said to his disciples:"
+    }
+]
