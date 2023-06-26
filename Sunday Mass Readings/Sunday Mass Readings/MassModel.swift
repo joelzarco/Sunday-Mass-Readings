@@ -38,5 +38,5 @@ struct Mass : Decodable, Identifiable{
              GospelLabel,
              GospelText
     }
-//    static var sampleMass : [Mass] = Bundle.main.decode(file: "mass.json")
+    static var sampleMass : [Mass] = Bundle.main.decode(file: "mass.json")
 }

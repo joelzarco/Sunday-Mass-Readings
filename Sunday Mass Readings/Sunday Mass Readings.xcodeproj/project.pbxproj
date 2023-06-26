@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		95085F2E2A49163600034214 /* MassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95085F2D2A49163600034214 /* MassModel.swift */; };
 		95085F302A49168000034214 /* mass.json in Resources */ = {isa = PBXBuildFile; fileRef = 95085F2F2A49168000034214 /* mass.json */; };
+		95085F322A491E9300034214 /* Extension+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95085F312A491E9300034214 /* Extension+Bundle.swift */; };
 		9585DB3B2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DB3A2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift */; };
 		9585DB3D2A4641B000812F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DB3C2A4641B000812F81 /* ContentView.swift */; };
 		9585DB3F2A4641B300812F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DB3E2A4641B300812F81 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		95085F2D2A49163600034214 /* MassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassModel.swift; sourceTree = "<group>"; };
 		95085F2F2A49168000034214 /* mass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mass.json; sourceTree = "<group>"; };
+		95085F312A491E9300034214 /* Extension+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Bundle.swift"; sourceTree = "<group>"; };
 		9585DB372A4641B000812F81 /* Sunday Mass Readings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunday Mass Readings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9585DB3A2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunday_Mass_ReadingsApp.swift; sourceTree = "<group>"; };
 		9585DB3C2A4641B000812F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				9585DB3E2A4641B300812F81 /* Assets.xcassets */,
 				9585DB482A4642DE00812F81 /* SundayModel.swift */,
 				95085F2D2A49163600034214 /* MassModel.swift */,
+				95085F312A491E9300034214 /* Extension+Bundle.swift */,
 				95085F2F2A49168000034214 /* mass.json */,
 				9585DB402A4641B300812F81 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9585DB3D2A4641B000812F81 /* ContentView.swift in Sources */,
+				95085F322A491E9300034214 /* Extension+Bundle.swift in Sources */,
 				9585DB492A4642DE00812F81 /* SundayModel.swift in Sources */,
 				9585DB3B2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift in Sources */,
 				95085F2E2A49163600034214 /* MassModel.swift in Sources */,
