@@ -15,6 +15,7 @@
 		9585DB3F2A4641B300812F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DB3E2A4641B300812F81 /* Assets.xcassets */; };
 		9585DB422A4641B300812F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9585DB412A4641B300812F81 /* Preview Assets.xcassets */; };
 		9585DB492A4642DE00812F81 /* SundayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585DB482A4642DE00812F81 /* SundayModel.swift */; };
+		9586EBF42A4B88B700312EA9 /* MassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586EBF32A4B88B700312EA9 /* MassView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9585DB3E2A4641B300812F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9585DB412A4641B300812F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9585DB482A4642DE00812F81 /* SundayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayModel.swift; sourceTree = "<group>"; };
+		9586EBF32A4B88B700312EA9 /* MassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				9585DB3A2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift */,
 				9585DB3C2A4641B000812F81 /* ContentView.swift */,
+				9586EBF32A4B88B700312EA9 /* MassView.swift */,
 				9585DB3E2A4641B300812F81 /* Assets.xcassets */,
 				9585DB482A4642DE00812F81 /* SundayModel.swift */,
 				95085F2D2A49163600034214 /* MassModel.swift */,
@@ -152,6 +155,7 @@
 			files = (
 				9585DB3D2A4641B000812F81 /* ContentView.swift in Sources */,
 				95085F322A491E9300034214 /* Extension+Bundle.swift in Sources */,
+				9586EBF42A4B88B700312EA9 /* MassView.swift in Sources */,
 				9585DB492A4642DE00812F81 /* SundayModel.swift in Sources */,
 				9585DB3B2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift in Sources */,
 				95085F2E2A49163600034214 /* MassModel.swift in Sources */,

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let Sundays : [Sunday] = [.january, .february, .march, .april, .may, .june, .july, .august, .september, .october, .november, .december]
+    let Sundays : [Sunday] = [.january, .february, .march, .april, .may, .june, .july, .august, .september, .october, .november, .december] // from static model
     let sampleMass : Mass = Mass.sampleMass.first! // content from json
     
     var body: some View {
@@ -20,7 +20,8 @@ struct ContentView: View {
                     if(!mass.isExpandable){
                         NavigationLink{
                             // dest
-                            Text(mass.name)
+//                            Text(mass.name)
+                            MassView(massName: mass.name, massDate: mass.strDate!, mass: sampleMass)
                         }label: {
                             // origin
                             HStack{
