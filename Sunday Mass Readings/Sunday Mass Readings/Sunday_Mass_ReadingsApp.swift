@@ -11,7 +11,8 @@ import SwiftUI
 struct Sunday_Mass_ReadingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            PreLaunch()
         }
     }
 }
