@@ -23,6 +23,7 @@ struct MassView: View {
                 Text(massDate)
                     .font(.headline)
                     .foregroundColor(.secondary)
+                Divider()
             }
             
             Group{

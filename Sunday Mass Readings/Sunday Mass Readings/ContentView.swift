@@ -12,7 +12,10 @@ struct ContentView: View {
     let Sundays : [Sunday] = [.january, .february, .march, .april, .may, .june, .july, .august, .september, .october, .november, .december] // from static model
     let sampleMass : Mass = Mass.sampleMass.first! // content from json
     
+    @State private var showCredits = false
+    
     var body: some View {
+        
         NavigationStack {
             VStack(alignment: .center) {
                 Spacer()
@@ -37,8 +40,24 @@ struct ContentView: View {
                 .padding([.top, .bottom])
                 Spacer()
                 Text("year 2023 AD")
-                    .font(.footnote).bold()
+                    .font(.caption).bold()
                     .padding(.bottom)
+                HStack{
+                    Spacer()
+                    Button{
+                        print("Credits")
+                        showCredits = true
+                    }label: {
+                        Image(systemName: "questionmark.circle.fill")
+                            .frame(width: 10, height: 10)
+                            .padding(.trailing)
+                            .foregroundColor(.yellow)
+                    }
+                }
+                .alert(isPresented: $showCredits) {
+                    Alert(title: Text("Not for use during Holy Mass"), message: Text("Based on Lectionary of the Dioceses Of the United States©"),
+                          dismissButton: .default(Text("Ok")))
+                }
             } //vs
             .preferredColorScheme(.dark)
             .toolbar{
