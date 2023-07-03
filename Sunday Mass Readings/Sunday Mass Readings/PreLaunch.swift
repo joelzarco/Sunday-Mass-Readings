@@ -22,9 +22,9 @@ struct PreLaunch: View {
                 ZStack{
                     Color(.black)
                         .edgesIgnoringSafeArea(.all)
-                    Image("whiteCross2")
+                    Image("jerusalem-cross3")
                         .resizable()
-                        .frame(width: 200, height: 249)
+                        .frame(width: 150, height: 158)
                         .rotation3DEffect(.degrees(angle), axis: (x: 0.0, y: 1.0, z: 0.0))
                         .opacity(opacity)
                         .scaleEffect(scale)
@@ -34,7 +34,7 @@ struct PreLaunch: View {
         .onAppear{
             withAnimation(.linear(duration: 2)){
                 angle = 0
-                scale = 1.5
+                scale = 1.3
                 opacity = 0
             }
             withAnimation(.linear.delay(1.75)) {

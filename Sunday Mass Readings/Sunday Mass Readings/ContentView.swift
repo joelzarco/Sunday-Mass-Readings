@@ -55,7 +55,7 @@ struct ContentView: View {
                     }
                 }
                 .alert(isPresented: $showCredits) {
-                    Alert(title: Text("Not for use during Holy Mass"), message: Text("Based on Lectionary of the Dioceses Of the United States©"),
+                    Alert(title: Text("Not for use during Holy Mass"), message: Text("Based on the Lectionary of the Dioceses Of the United States©"),
                           dismissButton: .default(Text("Ok")))
                 }
             } //vs

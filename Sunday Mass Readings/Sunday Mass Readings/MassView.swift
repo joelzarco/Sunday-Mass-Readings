@@ -13,6 +13,7 @@ struct MassView: View {
     let massDate : String
     // from json example
     let mass : Mass
+    @Environment(\.openURL) var openURL
     
     var body: some View {
         ScrollView{
@@ -106,10 +107,18 @@ struct MassView: View {
             .padding()
             
             Group{
-                Link("Brought you By Bulldog Catholic", destination: URL(string: "https://bulldogcatholic.org/")!)
-                    .font(.body)
-                    .foregroundColor(.yellow)
-                    .padding()
+//                Link("Brought you By Bulldog Catholic", destination: URL(string: "https://bulldogcatholic.org/")!)
+//                    .font(.body)
+//                    .foregroundColor(.yellow)
+//                    .padding()
+                Button("Brought you By Bulldog Catholic"){
+                    openURL(URL(string: "https://bulldogcatholic.org/")!)
+                }
+                .background(Color.yellow)
+                .buttonStyle(.bordered)
+                .clipShape(Capsule())
+                .font(.body).bold()
+                .foregroundColor(.white)
             }
         }
     }
