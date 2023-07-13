@@ -45,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		950716322A6063B00036017B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9585DB3C2A4641B000812F81 /* ContentView.swift */,
+				9586EBF32A4B88B700312EA9 /* MassView.swift */,
+				957FD48A2A4D192800AFC978 /* PreLaunch.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		957FD4892A4D190400AFC978 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,12 +86,10 @@
 			children = (
 				957FD48C2A4D199B00AFC978 /* Sunday-Mass-Readings-Info.plist */,
 				9585DB3A2A4641B000812F81 /* Sunday_Mass_ReadingsApp.swift */,
-				9585DB3C2A4641B000812F81 /* ContentView.swift */,
-				9586EBF32A4B88B700312EA9 /* MassView.swift */,
-				957FD48A2A4D192800AFC978 /* PreLaunch.swift */,
-				9585DB3E2A4641B300812F81 /* Assets.xcassets */,
-				957FD4892A4D190400AFC978 /* Models */,
 				95085F312A491E9300034214 /* Extension+Bundle.swift */,
+				957FD4892A4D190400AFC978 /* Models */,
+				950716322A6063B00036017B /* Views */,
+				9585DB3E2A4641B300812F81 /* Assets.xcassets */,
 				9585DB402A4641B300812F81 /* Preview Content */,
 			);
 			path = "Sunday Mass Readings";

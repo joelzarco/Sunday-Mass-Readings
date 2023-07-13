@@ -23,7 +23,6 @@ struct ContentView: View {
                     if(!mass.isExpandable){
                         NavigationLink{
                             // dest
-//                            Text(mass.name)
                             MassView(massName: mass.name, massDate: mass.strDate!, mass: sampleMass)
                         }label: {
                             // origin
