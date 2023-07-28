@@ -36,6 +36,7 @@ struct ContentView: View {
                         Text(mass.name) // months non-expandable
                     }
                 } //Lst
+                .listStyle(PlainListStyle())
                 .padding([.top, .bottom])
                 Spacer()
                 Text("year 2023 AD")
